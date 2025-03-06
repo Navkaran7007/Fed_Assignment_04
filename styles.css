@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0707;
+}
+
+fieldset {
+    width: 25em;
+    background: white;
+    padding: 1.25em;
+    border-radius: 0.75em;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    margin-bottom: 0.9em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.4em;
+    border-radius: 0.5em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 0.5em;
+}
+
+fieldset legend {
+    font-weight: bold;
+}
+
+fieldset input[type="checkbox"] {
+    margin-top: 1em;
+}
