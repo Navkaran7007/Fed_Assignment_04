@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Survey Form</title>
+</head>
+<body>
+    <fieldset>
+    <h1>FootBall Survey</h1>
+    <div class="Input">
+        <label for="filed_name">Name</label>
+        <input type="text" name="name" id="field_name" 
+        type="text" placeholder="Enter Your Name">
+    </div>
+    <div>
+        <label for="birth_date">Enter Your Date of Birth</label>
+        <input type="date" id="birth_date" name="user-input">  
+    </div>
+    <div class="Input">
+    <div>
+        <p>Enter Your Favorite Player </p>
+        <input type="radio" id="radio-input" name="user_selection" value="Ronaldo">
+        <label for="radio-selection">Ronaldo</label>
+        <input type="radio" id="radio-input" name="user_selection" value="Messi">
+        <label for="radio-selection">Messi</label>
+    </div class="Input">
+        <fieldset>
+            <legend>Favourite Team</legend>
+            <input type="checkbox" id="team_selection" name="user-choice" value="Real Madrid">
+            <label for="team_selection">Real-Madrid</label>
+            <input type="checkbox" id="team_selection" name="user-choice" value="Barcelona">
+            <label for="team_selection">Barcelona</label>
+            <input type="checkbox" id="team_selection" name="user-choice" value="Inter-Milan">
+            <label for="team_selection">Inter-Milan</label> 
+        </fieldset>
+        <div class="Input">
+            <label for="Other_favorites">Other Favorite Players</label>
+            <select id="Other_favorites" name="user-favt">
+                <option value="Other_favorites">Select Other Favorites</option>
+                <option value="Other_favorites">Kylian Mbappé</option>
+                <option value="Other_favorites">Mohamed Salah</option>
+                <option value="Other_favorites">Jude Bellingham</option>
+        </div>
+    </fieldset> 
+    
+</body>
+</html>
