@@ -11,28 +11,33 @@
     <form id="user-survey" action="https://httpbin.org/post" method="POST">
         <fieldset>
         <h1>FootBall Survey</h1>
+        
         <div class="Input">
             <label for="filed_name">Name</label>
             <input type="text" name="name" id="field_name" 
             type="text" placeholder="Enter Your Name">
+        
         </div>
+
         <div class="field_email">
             <label for="field_email">Email</label>
             <input type="text" name="email" 
             id="field_email" placeholder="Enter email"/>
         </div>
+        
         <div>
             <label for="birth_date">Enter Your Date of Birth</label>
             <input type="date" id="birth_date" name="user-input">  
         </div>
+        
         <div class="Input">
-        <div>
             <p>Enter Your Favorite Player </p>
             <label for="radio-selection" aria-label="User Selection" >Ronaldo</label>
             <input type="radio" id="radio-selection" name="user_selection" value="Ronaldo">
             <label for="radio-selection">Messi</label>
             <input type="radio" id="radio-selection" name="user_selection" value="Messi">
         </div class="Input">
+            
             <fieldset>
                 <legend>Favourite Team</legend>
                 <label for="team_selection">Real-Madrid</label>
@@ -42,6 +47,7 @@
                 <label for="team_selection">Inter-Milan</label> 
                 <input type="checkbox" id="team_selection" name="user-choice" value="Inter-Milan">
             </fieldset>
+
         <div class="Input">
             <label for="Other_favorites">Other Favorite Players</label>
             <select id="Other_favorites" name="user-favt" aria-label="Select Other Favorite Players">
@@ -51,9 +57,13 @@
                 <option value="Other_favorites">Jude Bellingham</option>
             </select>
         </div>
+
         <button type="submit">Submit Survey</button>
-        </fieldset> 
+
+        </fieldset>
+
     </form>
+    
         <script src="script.js"></script>   
 </body>
 </html>
