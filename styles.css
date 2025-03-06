@@ -59,3 +59,8 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+.input-error {
+    display: block;
+    color: red;
+}
