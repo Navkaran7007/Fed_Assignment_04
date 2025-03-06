@@ -46,3 +46,16 @@ fieldset legend {
 fieldset input[type="checkbox"] {
     margin-top: 1em;
 }
+
+button {
+    display:flex;
+    padding: 0.75em 1.5em;
+    background-color: #4CAF50;
+    color: rgb(13, 13, 13);
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
